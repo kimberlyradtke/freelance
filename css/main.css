@@ -1,0 +1,353 @@
+
+/* CSS Document */
+
+
+
+@font-face {
+	font-family: "colaborate_thin";
+	src: local('Colaborate Thin'), url('fonts/ColabThi.otf') format('truetype');
+}
+
+#container {
+	width: 960px;
+	margin: auto;
+	background-color: #fff;
+	padding: 20px;
+}
+
+body {
+	font-family: "Colaborate Thin", "Arial Narrow", Arial, sans-serif;
+	font-size: 14px;
+	color: #808080;
+	display: inline;
+	background-image: url(../img/background_img.png);
+	background-repeat: repeat;
+}
+
+#header {
+	padding: 15px 0 40px 0;
+}
+
+#header h1.headline {
+	font-family: "Myriad Pro Bold", "Myriad Pro", "Arial Black", Arial, sans-serif;
+	font-size: 72px;
+	font-weight: bolder;
+	color: #00A202;
+	text-align: center;
+}
+
+h2.headline {
+	float: right;
+	clear: left;
+	position: relative;
+	bottom: 65px;
+	right: 207px;
+}
+
+img#headline_line {
+	position: relative;
+	bottom: 39px;
+	left: 207px;
+}
+
+div#footer p {
+	font-size: 12px;
+	color: #808080;
+}
+
+div.credits {
+	float: left;
+	clear: right;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.credits p {
+	display: inline;
+	padding: 2px;
+}
+
+div.border_bottom {
+	border-bottom: 3px solid #B3B3B3;
+}
+
+div#footer {
+	border-top: 3px solid #B3B3B3;
+}
+
+.nav ul {
+	text-align: right;
+}
+
+.nav li {
+	display: inline;
+	text-transform: uppercase;
+	padding: 10px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav li a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+.nav li a:visited {
+	color: #808080;
+}
+
+.nav li a:hover {
+	border-bottom: solid 3px #00A202;
+}
+
+.nav li a:active {
+	color: #00A202;
+}
+
+div.carousel {
+	padding-bottom: 75px;
+	width: 960px;	
+}
+
+div.carousel_pictures {
+	text-align: center;
+	padding: 15px 0 15px 0;
+	background-color: #eaeaea;
+}
+
+div.carousel_pictures img:hover {
+	border: solid 3px #808080;
+	background-color: #808080;
+}
+
+div.carousel_pictures img {
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+h3.carousel_top {
+	font-size: 20px;
+	color: #B3B3B3;
+	text-align: left;
+	padding-left: 10px;
+}
+
+div.carousel_top {
+	border-bottom: solid 8px #b3b3b3;
+}
+
+div.carousel_bottom {
+	border-top	: solid 8px #b3b3b3;
+}
+
+h3.carousel_bottom {
+	font-size: 20px;
+	color: #B3B3B3;
+	text-align: right;
+	padding-right: 10px;
+}	
+
+a.selected {
+	color: #00A202 !important;
+	font-weight: 900 !important;
+	font-size: 18px;
+}
+
+div#content {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: solid 3px #B3B3B3;
+	padding-top: 40px;
+}
+
+p.center_column {
+	font-size: 18px;
+}
+
+div.left_column, div.center_column, div.right_column {
+	float: left;
+	width: 300px;
+}
+
+div.left_column, div.center_column {
+	clear: right;
+}
+
+div.center_column {
+	padding: 0 28px 0 28px;
+}
+
+p.first {
+	font-weight: bold;
+}
+
+div.email p {
+	width: 200px;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #00A202;
+	margin: 0;
+	padding: 0;
+}
+
+div.email {
+	float: right;
+	width: 200px;
+	padding-top: 10px;
+
+}
+
+img.email {
+	position: relative;
+}
+
+.clear {
+	clear: both;
+	padding-bottom: 40px;
+}
+
+img#click_here {
+	position: absolute;
+	top: 220px;
+	left: 1050px;
+}
+
+.shadow {
+	box-shadow: 3px 3px 4px #808080;
+}
+
+div#screenshot_content, div#stationary_content {
+	width: 800px;
+	margin: auto;
+}
+
+img.screenshot, img.stationary {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div#stationary_content img.stationary {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p.screenshot, p.stationary {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: solid 2px #b3b3b3;
+}
+
+div.design_pictures {
+	width: 960px;
+	margin: auto;
+}
+
+div.pictures {
+	float: left;
+	padding: 0 20px 0 20px;
+}
+
+div.pictures p {
+	text-align: center;
+	font-size: 14px;
+	color: #808080;
+}
+
+div.pictures a:link {
+	color: #808080;
+	text-decoration: underline;
+}
+
+div.pictures a:visited {
+	color: #00A202;
+}
+
+div.pictures a:hover {
+	color: #000000;
+	font-weight: bold;
+}
+
+div.pictures a:active {
+	color: b3b3b3;
+	text-decoration: none;
+}
+
+h1.headline a {
+	color: #00A202;
+	text-decoration: none;
+}
+
+div.back a {
+	font-size: 24px;
+	font-weight: bold;
+	color: #00A202;
+	text-decoration: underline;
+}
+
+div.back p {
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+div#contact_info {
+	float: right;
+	border-left: solid 1px #808080;
+	padding-left: 75px;
+}
+
+div#email_form {
+	width: 425px;
+	float: left;
+}
+
+td.comments {
+	vertical-align: top;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 10px 10px;
+}
+
+p.action {
+	font-size: 18px;
+	font-weight: bold;
+	color: #00A202;
+	padding-right: 10px;
+}
+
+div.inline_p p {
+	display: inline;
+}
+
+div.inline_p {
+	padding-bottom: 15px;
+}	
+
+div#email_form p {
+	color: #00A202;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+a.email_link {
+	color: #00A202;
+	text-decoration: none;
+}
+
+img.carousel {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+
+
+
+
+
+	
+	
